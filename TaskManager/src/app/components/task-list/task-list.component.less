@@ -1,0 +1,107 @@
+.task-list-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  color: #3f51b5;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;  /* מרווח בין החיפוש/מיון לרשימת המטלות */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 5px 10px;
+  max-width: 60%;  /* התאמה של רוחב המיכל */
+  border: 2px black solid transparent;
+}
+
+.search-container .search-input {
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  flex-grow: 1;
+  padding: 5px;
+  background-color: #f9f9f9;
+}
+
+.sort-dropdown {
+  max-width: 35%;  /* התאמה של רוחב הדרופ דאון */
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;  /* גבול תחתון למטלה */
+}
+
+.task-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f51b5;
+  text-decoration: none;
+  flex-grow: 1;  /* מאפשר למטלה לקחת את כל הרוחב הזמין */
+}
+
+.create-task-button {
+  display: block;
+  margin: 20px auto 0;
+  width: 100%;
+}
+.mat-paginator {
+  margin-top: 20px;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .task-list-container {
+    padding: 10px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-actions {
+    margin-top: 10px;
+    display: inline-flex;
+  }
+
+  .create-task-button {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .search-container {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}
+mat-spinner {
+  margin-left: 10px;
+}
+.task-item {
+  margin-bottom: 6px; /* מוסיף ריווח בין השורות */
+  padding-bottom: 5px; /* מוסיף ריווח פנימי לפריטי הרשימה */
+}
+.view-details-button {
+  min-height: 36px; /* גובה מינימלי לכפתור */
+}

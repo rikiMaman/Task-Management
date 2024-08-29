@@ -1,0 +1,17 @@
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\bin\Debug\net8.0\TaskMng.Data.deps.json
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\bin\Debug\net8.0\TaskMng.Data.runtimeconfig.json
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\bin\Debug\net8.0\TaskMng.Data.dll
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\bin\Debug\net8.0\TaskMng.Data.pdb
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\bin\Debug\net8.0\TaskMng.Core.dll
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\bin\Debug\net8.0\TaskMng.Core.pdb
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng.Data.csproj.AssemblyReference.cache
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng.Data.AssemblyInfoInputs.cache
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng.Data.AssemblyInfo.cs
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng.Data.csproj.CoreCompileInputs.cache
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng..52ABEC50.Up2Date
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng.Data.dll
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\refint\TaskMng.Data.dll
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng.Data.pdb
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\TaskMng.Data.genruntimeconfig.cache
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Data\obj\Debug\net8.0\ref\TaskMng.Data.dll

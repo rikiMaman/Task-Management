@@ -1,0 +1,52 @@
+<div class="task-list-container">
+  <h2>Task List</h2>
+  <div class="task-actions">
+    <div class="search-container">
+      <i class="fas fa-search"></i>
+      <input type="text" matInput [(ngModel)]="searchQuery" (input)="filterTasks()" placeholder="Search by title or description" class="search-input">
+    </div>
+    <mat-form-field appearance="fill" class="sort-dropdown">
+      <mat-label>Sort By</mat-label>
+      <mat-select [(ngModel)]="sortOption" (selectionChange)="sortTasks(sortOption)">
+        <mat-option value="title">Title</mat-option>
+        <mat-option value="dueDate">Due Date</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <mat-list>
+    <mat-list-item *ngFor="let task of paginatedTasks" @taskAnimation>
+      <div class="task-item">
+        <a [routerLink]="['/tasks', task.id]" class="task-link">{{ task.title }}</a>
+
+        <div class="task-actions">
+          <!-- <button mat-icon-button (click)="deleteTask(task.id)">
+            <mat-icon>delete</mat-icon>
+          </button> -->
+
+          <!-- <button mat-icon-button (click)="deleteTask(task.id)" [disabled]="isLoading" class="delete-button">
+            <mat-icon>delete</mat-icon>
+          </button> -->
+          
+          <button mat-raised-button [style.backgroundColor]="'red'"  (click)="deleteTask(task.id)" [disabled]="isLoading" class="delete-button" style="margin-right: 10px;">
+            Delete
+          </button>
+          
+          <mat-spinner *ngIf="isLoading"></mat-spinner>
+          
+
+
+
+          <button mat-raised-button color="primary" class="view-details-button" [routerLink]="['/tasks', task.id]" style="padding-top: 8px; padding-bottom: 8px;">
+            View Details
+          </button>
+        </div>
+      </div>
+    </mat-list-item>
+  </mat-list>
+  <mat-paginator [length]="filteredTasks.length"
+                 [pageSize]="5"
+                 [pageSizeOptions]="[5, 10, 20]"
+                 (page)="pageChanged($event)">
+  </mat-paginator>
+  <button mat-raised-button color="accent" [routerLink]="['/tasks/new']" class="create-task-button">Create New Task</button>
+</div>

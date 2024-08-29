@@ -1,0 +1,42 @@
+<div class="task-form-container">
+  <h2>Create New Task</h2>
+  <form [formGroup]="taskForm" (ngSubmit)="createTask()">
+    <mat-form-field appearance="fill">
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title" placeholder="Enter title" />
+      <mat-error *ngIf="taskForm.get('title')?.touched && taskForm.get('title')?.invalid">
+        <span *ngIf="taskForm.get('title')?.errors?.['required']">This is a required field</span>
+        <span *ngIf="taskForm.get('title')?.errors?.['minlength']">Title must be at least 2 characters long</span>
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Description</mat-label>
+      <textarea matInput formControlName="description" placeholder="Enter description"></textarea>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Status</mat-label>
+      <mat-select formControlName="status">
+        <mat-option value="To Do">To Do</mat-option>
+        <mat-option value="In Progress">In Progress</mat-option>
+        <mat-option value="Done">Done</mat-option>
+      </mat-select>
+      <mat-error *ngIf="taskForm.get('status')?.touched && taskForm.get('status')?.invalid">
+        <span *ngIf="taskForm.get('status')?.errors?.['required']">This is a required field</span>
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Due Date</mat-label>
+      <input matInput [matDatepicker]="picker" formControlName="dueDate" />
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+      <mat-error *ngIf="taskForm.get('dueDate')?.touched && taskForm.get('dueDate')?.invalid">
+        <span *ngIf="taskForm.get('dueDate')?.errors?.['required']">This is a required field</span>
+        <span *ngIf="taskForm.get('dueDate')?.errors?.['pastDate']">Due Date cannot be in the past</span>
+      </mat-error>
+    </mat-form-field>
+    <div class="button-group">
+      <button mat-raised-button color="primary" type="submit">Create Task</button>
+      <button mat-raised-button color="accent" [style.backgroundColor]="'red'" [routerLink]="['/tasks']">Cancel</button>
+    </div>
+  </form>
+</div>

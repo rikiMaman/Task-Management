@@ -1,0 +1,57 @@
+.task-detail-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  
+}
+
+h2 {
+  text-align: center;
+  color: #3f51b5;
+}
+
+.task-detail-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button {
+  align-self: flex-end;
+}
+.error mat-form-field {
+  border: 1px solid red;
+}
+
+.error input, .error textarea, .error mat-select {
+  border: 1px solid red;
+}
+button.mat-raised-button {
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+}
+.task-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.view-details-button {
+  margin-top: 10px; /* אפשר להתאים את זה לפי העיצוב הרצוי */
+  margin-right: 5px; /* מרווח קל מצד ימין */
+  padding: 5px 15px; /* מרווח פנימי לכפתור */
+  border-radius: 5px; /* עיגול פינות הכפתור */
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+

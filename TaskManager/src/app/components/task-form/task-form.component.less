@@ -1,0 +1,45 @@
+.task-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #3f51b5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button {
+  align-self: flex-end;
+}
+.error mat-form-field {
+  border: 1px solid red;
+}
+
+.error input, .error textarea, .error mat-select {
+  border: 1px solid red;
+}
+.error-border .mat-form-field-underline::after {
+  background-color: red !important;
+}
+
+.error-border .mat-form-field-wrapper {
+  border-bottom: 2px solid red;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+}

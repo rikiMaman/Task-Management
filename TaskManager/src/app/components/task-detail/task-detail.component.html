@@ -1,0 +1,46 @@
+<div *ngIf="task" class="task-detail-container">
+  <h2>Edit Task</h2>
+  <form #taskForm="ngForm" (ngSubmit)="onSubmit(taskForm)" class="task-detail-form">
+    <mat-form-field appearance="fill">
+      <mat-label>Title</mat-label>
+      <input matInput [(ngModel)]="task.title" name="title" required minlength="2" />
+      <mat-error *ngIf="taskForm.controls['title']?.invalid && taskForm.controls['title']?.touched">
+        <span *ngIf="taskForm.controls['title']?.errors?.['required']">This is a required field</span>
+        <span *ngIf="taskForm.controls['title']?.errors?.['minlength']">Title must be at least 2 characters long</span>
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Description</mat-label>
+      <textarea matInput [(ngModel)]="task.description" name="description"></textarea>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Status</mat-label>
+      <mat-select [(ngModel)]="task.status" name="status" required>
+        <mat-option value="To Do">To Do</mat-option>
+        <mat-option value="In Progress">In Progress</mat-option>
+        <mat-option value="Done">Done</mat-option>
+      </mat-select>
+      <mat-error *ngIf="taskForm.controls['status']?.invalid && taskForm.controls['status']?.touched">
+        This is a required field
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Due Date</mat-label>
+      <input matInput [matDatepicker]="picker" [(ngModel)]="formattedDueDate" name="dueDate" required />
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+      <mat-error *ngIf="taskForm.controls['dueDate']?.invalid && taskForm.controls['dueDate']?.touched">
+        <span *ngIf="taskForm.controls['dueDate']?.errors?.['required']">This is a required field</span>
+        <span *ngIf="!isValidDate()">Due date cannot be in the past</span>
+      </mat-error>
+    </mat-form-field>
+
+    <div class="button-group">
+      <button mat-raised-button color="primary" type="submit">Save</button>
+      <button mat-raised-button color="accent" [style.backgroundColor]="'red'" [routerLink]="['/tasks']">Cancel</button>
+    </div>
+  </form>
+</div>

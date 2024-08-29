@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB8649B-AA57-4F92-94EA-D706B97980A7}|TaskMng.Core\\TaskMng.Core.csproj|c:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\jubaan\\taskmng\\taskmng.core\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB8649B-AA57-4F92-94EA-D706B97980A7}|TaskMng.Core\\TaskMng.Core.csproj|solutionrelative:taskmng.core\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A88309-ADCD-4153-94E2-B7792085DCE5}|TaskMng.API\\TaskMng.API.csproj|C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\taskmng.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A88309-ADCD-4153-94E2-B7792085DCE5}|TaskMng.API\\TaskMng.API.csproj|solutionrelative:taskmng.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4A17E0-3BE5-4A1F-B771-1D8500A16995}|TaskMng.Data\\TaskMng.Data.csproj|c:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\jubaan\\taskmng\\taskmng.data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E4A17E0-3BE5-4A1F-B771-1D8500A16995}|TaskMng.Data\\TaskMng.Data.csproj|solutionrelative:taskmng.data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A88309-ADCD-4153-94E2-B7792085DCE5}|TaskMng.API\\TaskMng.API.csproj|c:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\jubaan\\taskmng\\taskmng.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A88309-ADCD-4153-94E2-B7792085DCE5}|TaskMng.API\\TaskMng.API.csproj|solutionrelative:taskmng.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\TaskMng.Data\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskMng.Data\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\TaskMng.Data\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "TaskMng.Data\\Repositories\\TaskRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwBkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T17:36:40.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoTask.cs",
+              "DocumentMoniker": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\TaskMng.Core\\Models\\TodoTask.cs",
+              "RelativeDocumentMoniker": "TaskMng.Core\\Models\\TodoTask.cs",
+              "ToolTip": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\TaskMng.Core\\Models\\TodoTask.cs",
+              "RelativeToolTip": "TaskMng.Core\\Models\\TodoTask.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:55:50.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\TaskMng.API\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskMng.API\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\TaskMng.API\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskMng.API\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:34:41.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\TaskMng.API\\Program.cs",
+              "RelativeDocumentMoniker": "TaskMng.API\\Program.cs",
+              "ToolTip": "C:\\\u05DE\u05D2\u05D4\u05D8\u05E7\\Jubaan\\TaskMng\\TaskMng.API\\Program.cs",
+              "RelativeToolTip": "TaskMng.API\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:33:40.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

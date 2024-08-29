@@ -1,0 +1,11 @@
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\bin\Debug\net8.0\TaskMng.Core.deps.json
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\bin\Debug\net8.0\TaskMng.Core.dll
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\bin\Debug\net8.0\TaskMng.Core.pdb
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\obj\Debug\net8.0\TaskMng.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\obj\Debug\net8.0\TaskMng.Core.AssemblyInfoInputs.cache
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\obj\Debug\net8.0\TaskMng.Core.AssemblyInfo.cs
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\obj\Debug\net8.0\TaskMng.Core.csproj.CoreCompileInputs.cache
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\obj\Debug\net8.0\TaskMng.Core.dll
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\obj\Debug\net8.0\refint\TaskMng.Core.dll
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\obj\Debug\net8.0\TaskMng.Core.pdb
+C:\מגהטק\Jubaan\TaskMng\TaskMng.Core\obj\Debug\net8.0\ref\TaskMng.Core.dll
